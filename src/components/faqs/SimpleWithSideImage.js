@@ -6,6 +6,7 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 import { SectionHeading, Subheading as SubheadingBase } from "components/misc/Headings.js";
 import { ReactComponent as PlusIcon } from "feather-icons/dist/icons/plus.svg";
 import { ReactComponent as MinusIcon } from "feather-icons/dist/icons/minus.svg";
+import pic1 from "images/demo/pic1.jpg";
 
 const Container = tw.div`relative`;
 const Content = tw.div`max-w-screen-xl mx-auto py-16 lg:py-20`;
@@ -41,7 +42,7 @@ export default ({
   subheading = "",
   heading = "FAQ's",
   description = "Here are some frequently asked questions about our services. If you have any other questions, feel free to reach out via the contact form below.",
-  imageSrc = "https://images.unsplash.com/photo-1579427421635-a0015b804b2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&q=80",
+  imageSrc = pic1,
   imageContain = false,
   imageShadow = true,
   faqs = null
@@ -49,24 +50,22 @@ export default ({
 
   const defaultFaqs = [
     {
-      question: "Is lunch provided free of cost ?",
-      answer:
-        "Yes, it is, if you have a membership with us. Otherwise it is charged as per the menu. Some limits do apply as to how much items can be included in your lunch. This limit is enough for any one person and merely exists to discourage abusal of the system."
+      question: "How can I find the perfect match for me?",
+      answer: " The app will find the perfect match for you based on the preference form you filled. You can anyways keep searching and trying all options out there till you find the one for you! "
     },
     {
-      question: "Do you have 2 Bedroom suites ?",
+      question: "Can I see other users' profile pictures on a blind dating app?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "No, on a blind dating app, profile pictures are not immediately visible. Users have to match and communicate with each and plan a date to meet each other if they're interested."
     },
     {
-      question: "Are Wi-Fi costs included in the price ?",
-      answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      question: "How do I report inappropriate behavior on a blind dating app?",
+      answer: "If you encounter inappropriate behavior on a blind dating app, you should report it to our customer support team. We have a feature to report and block users who engage in inappropriate behavior."
     },
     {
-      question: "Where can I reach you for support ?",
+      question: "How can I ensure my safety on a blind dating app?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "To ensure your safety on a blind dating app, it is important to only share personal information when you feel comfortable and trust the other person. Always arrange first dates in a public place and let someone know where you are going. It's also a good idea to video chat with the person before meeting them in person."
     }
   ];
 

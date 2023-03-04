@@ -4,7 +4,7 @@ import { Container as ContainerBase } from "components/misc/Layouts";
 import tw from "twin.macro";
 import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
-import illustration from "images/signup-illustration.svg";
+import signupImg from "images/demo/signup.jpg";
 import logo from "images/logo.svg";
 
 
@@ -38,7 +38,7 @@ const IllustrationImage = styled.div`
 
 export default ({
   logoLinkUrl = "#",
-  illustrationImageSrc = illustration,
+  illustrationImageSrc = signupImg,
   headingText = "Sign Up For Mingle",
   submitButtonText = "Sign Up",
   SubmitButtonIcon = SignUpIcon,
@@ -61,14 +61,11 @@ export default ({
                 <Input type="text" placeholder="Orientation" />
                 <div class="flex space-x-6">
                 <input type="radio" name="option" id="option1" class="peer" />
-                <label for="option1" class="peer-checked:bg-blue-500">Option 1</label>
+                <label for="option1" class="peer-checked:bg-blue-500">Male</label>
                 
                 <input type="radio" name="option" id="option2" class="peer" />
-                <label for="option2" class="peer-checked:bg-blue-500">Option 2</label>
-                
-                <input type="radio" name="option" id="option3" class="peer" />
-                <label for="option3" class="peer-checked:bg-blue-500">Option 3</label>
-              </div>
+                <label for="option2" class="peer-checked:bg-blue-500">Female</label>
+                 </div>
 
                 <SubmitButton type="submit">
                   <SubmitButtonIcon className="icon" />

@@ -4,23 +4,15 @@ import AnimationRevealPage from "helpers/AnimationRevealPage.js"
 
 import EventLandingPage from "demos/EventLandingPage.js";
 
-
 import EventLandingPageImageSrc from "images/demo/EventLandingPage.jpeg";
-
-
 
 import LoginPage from "pages/Login.js";
 import SignupPage from "pages/Signup.js";
 import PricingPage from "pages/Pricing.js";
-import AboutUsPage from "pages/AboutUs.js";
-import BlogIndexPage from "pages/BlogIndex.js";
-
 
 import LoginPageImageSrc from "images/demo/LoginPage.jpeg";
 import SignupPageImageSrc from "images/demo/SignupPage.jpeg";
 import PricingPageImageSrc from "images/demo/PricingPage.jpeg";
-import AboutUsPageImageSrc from "images/demo/AboutUsPage.jpeg";
-import BlogIndexPageImageSrc from "images/demo/BlogIndexPage.jpeg";
 
 import FullWidthWithImageHero from "components/hero/FullWidthWithImage.js";
 import BackgroundAsImageWithCenteredContentHero from "components/hero/BackgroundAsImageWithCenteredContent.js";
@@ -41,13 +33,6 @@ import ThreeColCenteredStatsWithPrimaryBackgroundFeatures from "components/featu
 import WithStatsAndImageFeatures from "components/features/TwoColSingleFeatureWithStats.js";
 import WithStatsAndImage2Features from "components/features/TwoColSingleFeatureWithStats2.js";
 import VerticalWithAlternateImageAndTextFeatures from "components/features/VerticalWithAlternateImageAndText.js";
-
-import SliderCards from "components/cards/ThreeColSlider.js";
-import TrendingCards from "components/cards/TwoTrendingPreviewCardsWithImage.js";
-import PortfolioCards from "components/cards/PortfolioTwoCardsWithImage.js";
-import TabGridCards from "components/cards/TabCardGrid.js";
-import ProfileThreeColGridCards from "components/cards/ProfileThreeColGrid.js"
-import ThreeColContactDetailsCards from "components/cards/ThreeColContactDetails.js"
 
 import ThreeColSimpleWithImageBlog from "components/blogs/ThreeColSimpleWithImage.js";
 
@@ -86,16 +71,7 @@ export const components = {
       url: `/components/innerPages/PricingPage`,
       imageSrc: PricingPageImageSrc,
     },
-    AboutUsPage: {
-      component: AboutUsPage,
-      url: `/components/innerPages/AboutUsPage`,
-      imageSrc: AboutUsPageImageSrc,
-    },
-    BlogIndexPage: {
-      component: BlogIndexPage,
-      url: `/components/innerPages/BlogIndexPage`,
-      imageSrc: BlogIndexPageImageSrc,
-    },
+  
     
   },
 
@@ -198,42 +174,6 @@ export const components = {
           name: "Vertical Feature Cards With Alternate Image and Text",
           component: VerticalWithAlternateImageAndTextFeatures,
           url: "/components/blocks/Features/VerticalWithAlternateImageAndText",
-        },
-      }
-    },
-
-    Cards: {
-      type: "Cards",
-      elements: {
-        Slider: {
-          name: "Three Column Slider",
-          component: SliderCards,
-          url: "/components/blocks/Cards/Slider",
-        },
-        Portfolio: {
-          name: "Two Column Portfolio Cards With Images ",
-          component: PortfolioCards,
-          url: "/components/blocks/Cards/Portfolio",
-        },
-        TabGrid: {
-          name: "Tab Card Grid With Tab Switcher",
-          component: TabGridCards,
-          url: "/components/blocks/Cards/TabGrid",
-        },
-        ProfileThreeColGrid: {
-          name: "Three Column Grid Cards For Profile",
-          component: ProfileThreeColGridCards,
-          url: "/components/blocks/Cards/ProfileThreeColGrid",
-        },
-        ThreeColContactDetails: {
-          name: "Three Column Contact Details Cards",
-          component: ThreeColContactDetailsCards,
-          url: "/components/blocks/Cards/ThreeColContactDetails",
-        },
-        Trending: {
-          name: "Two Trending Preview Cards With Images",
-          component: TrendingCards,
-          url: "/components/blocks/Cards/Trending",
         },
       }
     },
