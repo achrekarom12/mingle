@@ -139,7 +139,7 @@ export default ({
           <NavRow>
             <LogoLink href="/">
               <img src={logo} alt="" />
-              Treact
+              
             </LogoLink>
             
           </NavRow>

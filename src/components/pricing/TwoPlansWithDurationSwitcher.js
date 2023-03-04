@@ -71,7 +71,7 @@ const DecoratorBlob2 = styled(SvgDecoratorBlob2)`
 export default ({
   subheading = "Pricing",
   heading = "Flexible Plans.",
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  description = "Upgrade to premiun to earn a badge and appear in frequent matches.",
   plans = null,
   primaryButtonText = "Buy Now",
   planDurations = [
@@ -89,14 +89,14 @@ export default ({
     {
       name: "Free Plan",
       durationPrices: ["$0", "$0"],
-      mainFeature: "For Personal Blogs",
-      features: ["30 Templates", "7 Landing Pages", "12 Internal Pages", "Basic Assistance"]
+      mainFeature: "For Starter dates",
+      features: ["Blind Matches ", "Plan a Date", "Convo Starters", " Date Recommendations"]
     },
     {
       name: "Pro Plan",
       durationPrices: ["$49", "$499"],
-      mainFeature: "Suited for Production Websites",
-      features: ["60 Templates", "8 Landing Pages", "22 Internal Pages", "Priority Assistance", "Lifetime Updates"],
+      mainFeature: "Suited for Introverts",
+      features: ["More Appearances", "Early Matches", "Reward Badges", "Special Coupons on dates"],
       featured: true
     }
   ];

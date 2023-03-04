@@ -18,21 +18,7 @@ import FullWidthWithImageHero from "components/hero/FullWidthWithImage.js";
 import BackgroundAsImageWithCenteredContentHero from "components/hero/BackgroundAsImageWithCenteredContent.js";
 
 import TwoPlansWithDurationSwitcherPricing from "components/pricing/TwoPlansWithDurationSwitcher.js";
-import ThreePlansWithHalfPrimaryBackgroundPricing from "components/pricing/ThreePlansWithHalfPrimaryBackground.js";
-import ThreePlansPricing from "components/pricing/ThreePlans.js";
-
-import ThreeColWithSideImageFeatures from "components/features/ThreeColWithSideImage.js";
-import TwoColWithButtonFeatures from "components/features/TwoColWithButton.js";
 import ThreeColSimpleFeatures from "components/features/ThreeColSimple.js";
-import ThreeColWithSideImageWithPrimaryBackgroundFeatures from "components/features/ThreeColWithSideImageWithPrimaryBackground.js";
-import TwoColVerticalWithButtonFeatures from "components/features/TwoColWithTwoFeaturesAndButtons.js";
-import TwoColHorizontalWithButtonFeatures from "components/features/TwoColWithTwoHorizontalFeaturesAndButton.js";
-import WithStepsAndImageFeatures from "components/features/TwoColWithSteps.js";
-import ThreeColumnDashedBorderFeatures from "components/features/DashedBorderSixFeatures";
-import ThreeColCenteredStatsWithPrimaryBackgroundFeatures from "components/features/ThreeColCenteredStatsPrimaryBackground.js";
-import WithStatsAndImageFeatures from "components/features/TwoColSingleFeatureWithStats.js";
-import WithStatsAndImage2Features from "components/features/TwoColSingleFeatureWithStats2.js";
-import VerticalWithAlternateImageAndTextFeatures from "components/features/VerticalWithAlternateImageAndText.js";
 
 import ThreeColSimpleWithImageBlog from "components/blogs/ThreeColSimpleWithImage.js";
 
@@ -100,80 +86,16 @@ export const components = {
           component: TwoPlansWithDurationSwitcherPricing,
           url: "/components/blocks/Pricing/TwoPlansWithDurationSwitcher",
         },
-        ThreePlansWithHalfPrimaryBackground: {
-          name: "Three Plans With Primary Background at Top",
-          component: ThreePlansWithHalfPrimaryBackgroundPricing,
-          url: "/components/blocks/Pricing/ThreePlansWithHalfPrimaryBackground",
-        },
-        ThreePlans: {
-          name: "Simple Three Plans",
-          component: ThreePlansPricing,
-          url: "/components/blocks/Pricing/ThreePlans",
-        },
       }
     },
     Features: {
       type: "Features Section",
       elements: {
-        ThreeColWithSideImage: {
-          name: "Three Column With Side Image",
-          component: ThreeColWithSideImageFeatures,
-          url: "/components/blocks/Features/ThreeColWithSideImage",
-        },
-         TwoColWithButton: {
-          name: "Two Column With Image and Action Button",
-          component: TwoColWithButtonFeatures,
-          url: "/components/blocks/Features/TwoColWithButton",
-        },
+        
         ThreeColSimple: {
           name: "Three Column Simple",
           component: ThreeColSimpleFeatures,
           url: "/components/blocks/Features/ThreeColSimple",
-        },
-        ThreeColWithSideImageWithPrimaryBackground: {
-          name: "Three Column With Side Image With Primary Background",
-          component: ThreeColWithSideImageWithPrimaryBackgroundFeatures,
-          url: "/components/blocks/Features/ThreeColWithSideImageWithPrimaryBackground",
-        },
-        TwoColHorizontalWithButton: {
-          name: "Two Column With Button and Horizonatal Features with Icon",
-          component: TwoColHorizontalWithButtonFeatures,
-          url: "/components/blocks/Features/TwoColHorizontalWithButton",
-        },
-        TwoColVerticalWithButton: {
-          name: "Two Column With Vertical Features and Button",
-          component: TwoColVerticalWithButtonFeatures,
-          url: "/components/blocks/Features/TwoColVerticalWithButton",
-        },
-        WithStepsAndImage: {
-          name: "Steps with Image",
-          component: WithStepsAndImageFeatures,
-          url: "/components/blocks/Features/WithStepsAndImage",
-        },
-        ThreeColumnDashedBorder: {
-          name: "Three Column With Dashed Primary Border",
-          component: ThreeColumnDashedBorderFeatures,
-          url: "/components/blocks/Features/ThreeColumnDashedBorder",
-        },
-        ThreeColCenteredStatsPrimaryBackground: {
-          name: "Three Column With Centered Stats on Primary Background",
-          component: ThreeColCenteredStatsWithPrimaryBackgroundFeatures,
-          url: "/components/blocks/Features/ThreeColCenteredStatsPrimaryBackground",
-        },
-        WithStatsAndImage: {
-          name: "Stats With Image",
-          component: WithStatsAndImageFeatures,
-          url: "/components/blocks/Features/WithStatsAndImage",
-        },
-        WithStatsAndImage2: {
-          name: "Stats With Image 2",
-          component: WithStatsAndImage2Features,
-          url: "/components/blocks/Features/WithStatsAndImage2",
-        },
-        VerticalWithAlternateImageAndText: {
-          name: "Vertical Feature Cards With Alternate Image and Text",
-          component: VerticalWithAlternateImageAndTextFeatures,
-          url: "/components/blocks/Features/VerticalWithAlternateImageAndText",
         },
       }
     },

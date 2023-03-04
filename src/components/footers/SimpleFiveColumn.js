@@ -41,10 +41,10 @@ export default () => {
         <WideColumn>
           <LogoContainer>
             <LogoImg src={LogoImage} />
-            <LogoText>Treact Inc.</LogoText>
+            <LogoText>Mingle</LogoText>
           </LogoContainer>
           <CompanyDescription>
-            Treact is an Internet Technology company providing design resources such as website templates and themes.
+            Mingle is a blind dating app for all singles out there ready to be mingled!
           </CompanyDescription>
           <SocialLinksContainer>
             <SocialLink href="https://facebook.com">
@@ -62,13 +62,10 @@ export default () => {
           <ColumnHeading>Quick Links</ColumnHeading>
           <LinkList>
             <LinkListItem>
-              <Link href="#">Blog</Link>
+              <Link href="faq">FAQs</Link>
             </LinkListItem>
             <LinkListItem>
-              <Link href="#">FAQs</Link>
-            </LinkListItem>
-            <LinkListItem>
-              <Link href="#">Support</Link>
+              <Link href="#">Contact</Link>
             </LinkListItem>
             <LinkListItem>
               <Link href="#">About Us</Link>
@@ -84,31 +81,10 @@ export default () => {
             <LinkListItem>
               <Link href="#">Personal</Link>
             </LinkListItem>
-            <LinkListItem>
-              <Link href="#">Business</Link>
-            </LinkListItem>
-            <LinkListItem>
-              <Link href="#">Team</Link>
-            </LinkListItem>
+            
           </LinkList>
         </Column>
-        <Column>
-          <ColumnHeading>Legal</ColumnHeading>
-          <LinkList>
-            <LinkListItem>
-              <Link href="#">GDPR</Link>
-            </LinkListItem>
-            <LinkListItem>
-              <Link href="#">Privacy Policy</Link>
-            </LinkListItem>
-            <LinkListItem>
-              <Link href="#">Terms of Service</Link>
-            </LinkListItem>
-            <LinkListItem>
-              <Link href="#">Disclaimer</Link>
-            </LinkListItem>
-          </LinkList>
-        </Column>
+        
       </FiveColumns>
     </Container>
   );
