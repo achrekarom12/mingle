@@ -49,7 +49,7 @@ import Hero from "components/hero/FullWidthWithImage.js";
 
 // import SliderCard from "components/cards/ThreeColSlider.js";
 // import TrendingCard from "components/cards/TwoTrendingPreviewCardsWithImage.js";
-// import Portfolio from "components/cards/PortfolioTwoCardsWithImage.js";
+import Portfolio from "components/cards/PortfolioTwoCardsWithImage.js";
 // import TabGrid from "components/cards/TabCardGrid.js";
 
 // import Blog from "components/blogs/ThreeColSimpleWithImage.js";
@@ -120,6 +120,7 @@ export default function App() {
           <Route path="/login" element={<LoginPage />} />
           <Route path="/signup" element={<SignupPage />} />
           <Route path="/home" element={<EventLandingPage />} />
+          <Route path="/planadate" element={<Portfolio />} />
 
         </Routes>
       </Router>

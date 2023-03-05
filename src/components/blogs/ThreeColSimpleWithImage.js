@@ -33,32 +33,32 @@ export default () => {
   const blogPosts = [
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-      category: "Techie",
-      title: "Finding Amazing Events Near You - Fast, Cheap & Free",
+        "https://www.bworldonline.com/wp-content/uploads/2022/12/computer-laptop-1.jpg",
+      title: "Techie",
+      category: "Find a companion just like you from the corporate world",
       url: "https://timerse.com"
     },
     
     {
       imageSrc:
         "https://images.unsplash.com/photo-1543365067-fa127bcb2303?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-      category: "Bollywood",
-      title: "The Top Rated Musical Concerts Worldwide in 2019",
+      title: "Bollywood",
+      category: "Sing to the top of your throats with a date just as B-Town head as you",
       url: "https://reddit.com"
     },
     {
-      imageSrc:
-        "https://images.unsplash.com/photo-1499364615650-ec38552f4f34?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
-      category: "Sports",
-      title: "This female band is making buzz all over the world",
+      imageSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEf7r_u79-JUtBTh5eHLfLibLt9H0fi12gAqLklNxcnUsrJxoA33hgmKVtIkVrj853Kvk&usqp=CAU",
+      title: "Sports",
+      category: "Get sporty with your partner in different ways ;)",
       url: "https://timerse.com"
+      
     }
   ];
   return (
     <Container>
       <Content>
         <HeadingInfoContainer>
-          <HeadingTitle>Themes near me</HeadingTitle>
+          <HeadingTitle>Themes you might like</HeadingTitle>
           <HeadingDescription>Your match is just a click away! Enter any event and find your match.</HeadingDescription>
         </HeadingInfoContainer>
         <ThreeColumn>
@@ -66,9 +66,10 @@ export default () => {
             <Column key={index}>
               <Card>
                 <Image imageSrc={post.imageSrc} />
-                <Category>{post.category}</Category>
+                
                 <Title>{post.title}</Title>
-                <Link href={post.url}>Read Post</Link>
+                <Category>{post.category}</Category>
+                <Link href={post.url}>Join In</Link>
                 
               </Card>
               
